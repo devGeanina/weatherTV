@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_browse_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".tv.MainActivity"
+    android:background="@color/black"
+    tools:deviceIds="tv"
+    tools:ignore="MergeRootFrame">
+
+
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="fragments.ParisLocationFragment"
+        android:id="@+id/fragmentParis"
+        android:layout_marginStart="290dp"
+        tools:layout="@layout/paris_city_fragment" />
+
+    <fragment
+        android:name="fragments.NewYorkLocationFragment"
+        android:id="@+id/fragmentNewYork"
+        tools:layout="@layout/newyork_city_fragment"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_alignParentStart="true" />
+
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="fragments.LondonLocationFragment"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/fragmentLondon"
+        android:layout_marginStart="510dp"
+        tools:layout="@layout/london_city_fragment" />
+
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="fragments.TaipeiLocationFragment"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="730dp"
+        android:id="@+id/fragmentTaipei"
+        tools:layout="@layout/taipei_city_fragment" />
+</RelativeLayout>
+
