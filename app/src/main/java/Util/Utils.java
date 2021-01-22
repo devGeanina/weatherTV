@@ -9,10 +9,7 @@ public class Utils {
 
     public static final String BASE_URL = "http://api.openweathermap.org/data/2.5/weather?q=";
     public static final String ICON_URL = "http://openweathermap.org/img/w/";
-    public static final String APP_ID ="bd5e378503939ddaee76f12ad7a97608";
-
-           //pt deploy
-           //"1035c773d193eb0aabf8ee9bed1446fa";
+    public static final String APP_ID = //add app ID here
     public static String BASE_FORECAST_URL = "http://api.openweathermap.org/data/2.5/forecast/daily?q=";
 
     public static JSONObject getObject(String tagName, JSONObject jsonObject) throws JSONException{
