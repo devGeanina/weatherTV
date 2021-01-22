@@ -10,10 +10,10 @@ Replace the API key in Utils.java.
 
 ## Built With
 
- Open weather API - to fetch data to display.
- SQLiteOpenHelper - used to save the information.
- bumptech/glide - GitHub project for loading images.
- Picasso - https://square.github.io/picasso/.
+ * Open weather API - to fetch data to display.
+ * SQLiteOpenHelper - used to save the information.
+ * bumptech/glide - GitHub project for loading images.
+ * Picasso - https://square.github.io/picasso/.
 
 ## Author
 * **Geanina Chiricuta**
