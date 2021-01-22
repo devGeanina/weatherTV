@@ -1,6 +1,6 @@
 ## Weather TV
 
-Small and fun Android TV application that shows how to display weather in different cities through switching the screens.
+Small and fun Android TV application that shows how to display weather in different cities through switching the fragments and using an open API.
 
 ## Getting Started
 Import the project into Android Studio or IntelliJ and run on one of the supported platform.
@@ -16,4 +16,4 @@ Replace the API key in Utils.java.
  Picasso - https://square.github.io/picasso/.
 
 ## Author
-* **GeaninaFFF Chiricuta**
+* **Geanina Chiricuta**
